@@ -1,0 +1,8 @@
+{
+  "elements": {
+    "select_tut_div": "Use this selectors to select the ship.",
+    "ship_info_tut_div": "This list contains information about selected ship.",
+    "port_info_tut_div": "This list contains name of port reported by selected ship, number of ships and types of ships that report the same port.",
+    "map_tut_div": "The map shows two consecutive positions logged by the ship between which it traveled longest distance. Click on marker to see info about the position. Click on line between points to see the distance."
+  }
+}

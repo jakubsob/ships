@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+}
+
+.fixed-item {
+  width: 50px;
+}
+
+.flex-item {
+  flex-grow: 1;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.icon-box {
+  width: 15px;
+}

@@ -1,0 +1,19 @@
+{
+  "items": {
+    "Destination": {
+      "header": "Name",
+      "description": "{x}",
+      "icon": "city"
+    },
+    "Shipname": {
+      "header": "Number of ships",
+      "description": "{x}",
+      "icon": "sort numeric up"
+    },
+    "Shiptype": {
+      "header": "Number of types of ships",
+      "description": "{x}",
+      "icon": "sort numeric up"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ships
+
+<!-- badges: start -->
+[![R build status](https://github.com/jakubsob/ships/workflows/R-CMD-check/badge.svg)](https://github.com/jakubsob/ships/actions)
+[![Travis build status](https://travis-ci.com/jakubsob/ships.svg?branch=master)](https://travis-ci.com/jakubsob/ships)
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/jakubsob/ships?branch=master&svg=true)](https://ci.appveyor.com/project/jakubsob/ships)
+[![Codecov test coverage](https://codecov.io/gh/jakubsob/ships/branch/master/graph/badge.svg)](https://codecov.io/gh/jakubsob/ships?branch=master)
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![license](https://img.shields.io/badge/license-mit-lightgrey.svg)](https://choosealicense.com/)
+<!-- badges: end -->
+
+A Shiny app to find two consecutive positions reported by a ship between which it traveled longest distance.
+
+## Installation
+
+Install from github:
+
+```{r, eval = FALSE}
+devtools::install_github("jakubsob/ships")
+```
+
+Run:
+
+```{r, eval = FALSE}
+ships::run_app()
+```
+
+## Interface
+
+```{r, echo = FALSE, fig.cap = "Start page of app."}
+knitr::include_graphics("man/figures/README-ui.png")
+```

@@ -1,0 +1,24 @@
+{
+  "items": {
+    "Speed": {
+      "header": "Speed",
+      "description": "{x} knots",
+      "icon": "tachometer alternate"
+    },
+    "Length": {
+      "header": "Length",
+      "description": "{x} m",
+      "icon": "text height"
+    },
+    "Width": {
+      "header": "Width",
+      "description": "{x} m",
+      "icon": "text width"
+    },
+    "Dwt": {
+      "header": "Weight",
+      "description": "{x} tonnes",
+      "icon": "balance scale"
+    }
+  }
+}

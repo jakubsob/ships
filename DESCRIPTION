@@ -1,0 +1,34 @@
+Package: ships
+Title: Shiny App for Viewing Ship Routes
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jakub",
+           family = "Sobolewski",
+           role = c("aut", "cre"),
+           email = "jakupsob@gmail.com")
+Description: Recruitment task for Shiny Dev position at Appsilon
+License: MIT + file LICENSE
+Imports: 
+    config,
+    golem,
+    shiny,
+    shinyjs,
+    shiny.semantic (>= 0.4.0),
+    leaflet (>= 2.0.4.1),
+    dplyr,
+    geosphere,
+    glue,
+    magrittr,
+    purrr,
+    tibble,
+    jsonlite,
+    checkmate,
+    rintrojs
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    covr,
+    testthat

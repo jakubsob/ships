@@ -1,0 +1,10 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^data-raw$
+^LICENSE\.md$
+^README\.Rmd$
+^\.github$
+^\.travis\.yml$
+^appveyor\.yml$
+^codecov\.yml$
+^debug\.log$
