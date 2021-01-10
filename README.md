@@ -7,8 +7,6 @@
 
 [![R build
 status](https://github.com/jakubsob/ships/workflows/R-CMD-check/badge.svg)](https://github.com/jakubsob/ships/actions)
-[![Travis build
-status](https://travis-ci.com/jakubsob/ships.svg?branch=master)](https://travis-ci.com/jakubsob/ships)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/jakubsob/ships?branch=master&svg=true)](https://ci.appveyor.com/project/jakubsob/ships)
 [![Codecov test
