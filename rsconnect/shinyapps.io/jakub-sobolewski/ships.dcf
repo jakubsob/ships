@@ -5,6 +5,6 @@ account: jakub-sobolewski
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3459040
-bundleId: 4079477
+bundleId: 4079581
 url: https://jakub-sobolewski.shinyapps.io/ships/
-when: 1610308490.55508
+when: 1610311433.17495
