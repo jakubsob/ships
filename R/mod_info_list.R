@@ -27,12 +27,17 @@ mod_info_list_server <- function(input, output, session, list_format, list_data)
 
   observeEvent(list_data(), {
     if (!is.list(list_data())) return()
+    print(list_data())
 
     list_format %>%
       imap(function(x, n) {
         list(
           header = x$header,
-          description = glue(x$description, x = list_data()[[n]]),
+          description = ifelse(
+            is.na(list_data()[[n]]),
+            "No info",
+            glue(x$description, x = list_data()[[n]])
+          ),
           icon = x$icon
         )
       }) %>%

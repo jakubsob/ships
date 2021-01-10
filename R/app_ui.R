@@ -36,13 +36,11 @@ app_ui <- function(request) {
             ),
             mod_info_list_ui("info_list_ui_2")
           ),
-          div(
-            action_button_animated(
-              "help",
-              visible_content = icon("question circle outline"),
-              hidden_content = "Help",
-              style = "style: 100%;"
-            )
+          action_button_animated(
+            "help",
+            visible_content = icon("question circle outline"),
+            hidden_content = "Help",
+            style = "width: 100%;"
           )
         ),
         main_panel = main_panel(

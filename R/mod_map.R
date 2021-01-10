@@ -57,6 +57,7 @@ mod_map_server <- function(input, output, session, ship_data){
       addPolylines(
         lng = ~ Lon,
         lat = ~ Lat,
+        weight = const_map_params$polyline_width,
         popup = glue(dist_popup_fmt, dist = signif(dist$Dist[1], 2)),
         options = popupOptions(
           closeButton = FALSE,

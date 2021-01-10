@@ -1,5 +1,6 @@
 {
-  "height": "550px",
+  "height": "560px",
   "width": "100%",
-  "zoom": 12
+  "zoom": 12,
+  "polyline_width": 10
 }

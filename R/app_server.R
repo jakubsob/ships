@@ -8,6 +8,7 @@
 #' @importFrom dplyr n_distinct
 #' @importFrom tibble tibble
 #' @importFrom rintrojs introjs
+#' @importFrom purrr map
 app_server <- function(input, output, session) {
 
   # Load data
@@ -31,11 +32,12 @@ app_server <- function(input, output, session) {
     if (is.null(dist)) return(NULL)
 
     list(
-      Speed = signif(dist$Speed, 1),
+      Speed = dist$Speed,
       Dwt = dist$Dwt,
       Length = dist$Length,
       Width = dist$Width
-    )
+    ) %>%
+      map(round, 3)
   })
 
   # Prepare data for port info module

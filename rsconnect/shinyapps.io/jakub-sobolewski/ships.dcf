@@ -1,0 +1,10 @@
+name: ships
+title:
+username:
+account: jakub-sobolewski
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3459040
+bundleId: 4079477
+url: https://jakub-sobolewski.shinyapps.io/ships/
+when: 1610308490.55508
